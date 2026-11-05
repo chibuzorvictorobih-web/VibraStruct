@@ -1,0 +1,9 @@
+{
+  "eigen_residual": true,
+  "orthogonality": true,
+  "undamped_energy_drift": true,
+  "transient_exact_error": true,
+  "refined_exact_error": true,
+  "harmonic_modal_agreement": true,
+  "damped_energy_nonincrease": true
+}
