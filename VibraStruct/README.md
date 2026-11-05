@@ -17,7 +17,7 @@ For subsequent launches, double-click `OPEN_VIBRASTRUCT.bat` after dependencies 
 The dashboard supports single-mass and coupled three-mass models, adjustable parameters, harmonic and transient response, mode shapes and CSV/PNG/JSON downloads. Press **Update analysis** after editing the sidebar inputs.
 
 ### Publish with Streamlit Community Cloud
-Upload the contents of the inner `VibraStruct` folder to a GitHub repository, preserving the `vibrastruct` package and `.streamlit` folder. In Streamlit Community Cloud, create an app from that repository and select `app.py` as the main file. The root `requirements.txt` installs the dashboard dependencies. Once deployed, use the URL returned by Streamlit for your portfolio. This ZIP does not itself create a hosted deployment.
+This repository keeps the project in the `VibraStruct` subfolder. In Streamlit Community Cloud, select branch `main` and `VibraStruct/app.py` as the main file. Dependencies are in `VibraStruct/requirements.txt`; dashboard styling is in `.streamlit/config.toml` at the repository root. Live dashboard: https://vibrastruct.streamlit.app/.
 
 ### Run the original reproducible study
 1. Extract the ZIP, then open a terminal inside `VibraStruct`.
